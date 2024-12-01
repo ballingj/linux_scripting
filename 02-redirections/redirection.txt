@@ -1,0 +1,28 @@
+# ##################################
+Redirections 
+
+0	Standard Input
+1 	Standard Output
+2	Standard Error
+
+
+>> 	append
+>  	overwrite
+
+
+2>>/dev/null	  	to null
+&>>sysVitals.log	redirects both stdout and stderr to sysVitals.log
+
+
+####################
+Example
+
+# redirect to null
+./redir_stderr_logger.sh > sysVitals.log 2>>/dev/null
+
+# redirect stdoutput to sysVitals.log and
+# redirect stderror to sysVitals.err file
+./redir_stderr_logger.sh > sysVitals.log 2>> sysVitals.err
+
+# both stdin and stderr to file
+./redir_stderr_logger.sh &>> sysVitals.log

@@ -1,0 +1,14 @@
+Options				Description
+-----------------------------------------------------------
+ -a				Do for All
+ -c				Count
+ -d				Directory
+ -f				File to read
+ -h				Help
+ -o				Output to file
+ -q				Quit
+ -r				Recursion
+ -s				Silent
+ -v				Verbose
+ -y				"Yes" to any/all questions
+

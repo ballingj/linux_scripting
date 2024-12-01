@@ -1,0 +1,18 @@
+# numeric comparison
+
+-eq : equal
+-ge : greater than or equal
+-gt : greater than
+-le : less than or equal
+-lt : less than
+-ne : not equal
+
+# string comparison
+
+=  : same as
+!= : not same
+<  : less than
+>  : greater than
+-n : check if operator on left has length greater than zero
+-z : check if operator on left has length of zero
+

@@ -1,0 +1,14 @@
+val++	Post-increment
+val-- 	Post-decrement
+++val	Pre-increment
+--val	Pre-decrement
+!	Logical negation
+~	Bitwise negation
+**	Exponentiation
+<<	Left bitwise shift
+>>	Right bitwise shift
+&	Bitwise boolean AND
+|	Bitwise boolean OR
+&&	Logical boolean AND
+||	Logical boolean OR
+

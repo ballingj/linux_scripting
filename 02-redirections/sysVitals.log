@@ -1,0 +1,11 @@
+Sat Nov 30 11:54:32 PM UTC 2024
+********************************************
+Linux ms01-webserver01 6.8.0-49-generic #49-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov  4 02:06:24 UTC 2024
+ 23:54:32 up 2 days, 20:28,  2 users,  load average: 0.00, 0.00, 0.00
+192.168.50.104/24
+Sun Dec  1 12:00:59 AM UTC 2024
+********************************************
+Linux ms01-webserver01 6.8.0-49-generic #49-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov  4 02:06:24 UTC 2024
+ 00:00:59 up 2 days, 20:34,  2 users,  load average: 0.00, 0.00, 0.00
+192.168.50.104/24
+./redir_stderr_logger.sh: line 8: silly: command not found

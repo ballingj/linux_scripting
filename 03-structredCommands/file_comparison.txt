@@ -1,0 +1,14 @@
+-d file  : checks if file exists and is a directory
+-e file  : check if file exists
+-f file  : checks if file exists and is a file
+-r file  : checks if file exists and is readable
+-s file  : checks if file exists and not empty
+-w file  : checks if file exists and is writable
+-x file  : checks if file exists and is executable
+-O file  : checks if file exists and owned by the current user
+-G file  : checks if file exists and default group is same as current user
+
+
+file1 -nt file2   : checks if file1 is newer than file2
+file1 -ot file2   : checks if file1 is older than file2
+
