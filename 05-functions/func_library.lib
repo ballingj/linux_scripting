@@ -1,0 +1,13 @@
+# Function Library
+     
+# Check Disk Useage
+disky() {
+     df -h
+     du -chd 1 / 2>/dev/null
+}
+
+# Check Network Settings
+netty() {
+     ifconfig | grep inet | grep -v 'inet6' | cut -d " " -f 8,9,10
+}
+          
